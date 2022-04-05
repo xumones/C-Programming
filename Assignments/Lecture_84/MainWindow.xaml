@@ -1,0 +1,16 @@
+﻿<Window x:Class="Assignment_84_Rawipote_P.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_84_Rawipote_P"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Add" HorizontalAlignment="Left" Height="59" Margin="37,217,0,0" VerticalAlignment="Top" Width="216" Click="Button_Click"/>
+        <Button Content="Delete" HorizontalAlignment="Center" Height="59" Margin="0,217,0,0" VerticalAlignment="Top" Width="218" Click="Button_Click_1"/>
+        <Button Content="Show" HorizontalAlignment="Left" Height="59" Margin="546,217,0,0" VerticalAlignment="Top" Width="209" Click="Button_Click_2"/>
+        <TextBox x:Name="TextBox_Data" HorizontalAlignment="Left" Height="86" Margin="37,86,0,0" TextWrapping="Wrap" Text="Enter something" VerticalAlignment="Top" Width="718" GotFocus="TextBox_GotFocus" FontSize="30"/>
+
+    </Grid>
+</Window>
